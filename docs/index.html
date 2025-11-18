@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OOPS!</title>
+<style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffc60b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+ 
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .graphic-container {
+            width: 250px;
+            height: 200px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+ 
+        .fish-anim {
+            animation: float 3s ease-in-out infinite;
+        }
+ 
+        h1 {
+            font-size: 8rem;
+            font-weight: 800;
+            color: #fefefe;
+            text-shadow: 3px 3px 0px rgba(0,0,0,0.1); 
+            line-height: 1;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+ 
+        h2 {
+            font-size: 3rem;
+            font-weight: 400;
+            margin-bottom: 40px;
+            color: #ffffff;
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+        }
+
+        .highlight-orange {
+            color: #ff6d00;
+            font-weight: 600;
+            text-shadow: none;
+        }
+ 
+        p {
+            font-size: 1.7em;
+            line-height: 1.5;
+            margin-bottom: 10px;
+            max-width: 90%;
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.15);
+        }
+ 
+        .footer-bold {
+            font-weight: 700;
+            font-size: 1.6rem;
+            margin-top: 5px;
+        }
+ 
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+ 
+            p {
+                font-size: 1rem;
+            }
+ 
+            .graphic-container {
+                width: 150px;
+                height: 120px;
+            }
+        }
+</style>
+</head>
+<body>
+ 
+    <div class="container">
+<div class="graphic-container">
+<svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="60" y1="10" x2="140" y2="10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+<path d="M100 10 V 80 C 100 110, 70 110, 70 90" stroke="#4dd0e1" stroke-width="5" stroke-linecap="round" fill="none"/>
+<circle cx="100" cy="45" r="4" stroke="#4dd0e1" stroke-width="3" fill="#ffc60b"/>
+<g class="fish-anim" transform="translate(10, 10)">
+<ellipse cx="140" cy="100" rx="25" ry="18" fill="#ff3d00"/>
+<path d="M160 100 L 180 85 L 180 115 Z" fill="#ff3d00"/>
+<circle cx="130" cy="95" r="3" fill="white"/>
+    </g>
+        </svg>
+        </div>
+ 
+            <h1>OOPS!</h1>
+            <h2>You fell for a <span class="highlight-orange">phish!</span></h2>
+            <p>Do not worry, this was an approved phishing simulation run by your admin.</p>
+            <p class="footer-bold">We are here to help.</p>
+        </div>
+    </body>
+</html>
