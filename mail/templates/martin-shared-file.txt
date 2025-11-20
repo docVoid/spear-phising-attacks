@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- BaNnErBlUrFlE-BoDy-start --><!-- Preheader Text : BEGIN --><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div style="display:none !important;display:none;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;opacity:0;overflow:hidden;">
-Martin Weiss hat eine Datei mit Ihnen geteilt. Martin hat eine Datei mit Ihnen geteilt. Martin hat folgendes Dokument mit Ihnen geteilt. Meeting_Info_20251110 Dieser Link funktioniert nur für den direkten Empfänger dieser E-Mail. Öffnen Datenschutzbestimmungen</div>
+Lukas Butscher Weiss hat eine Datei mit Ihnen geteilt. Lukas Butscher hat eine Datei mit Ihnen geteilt. Lukas Butscher hat folgendes Dokument mit Ihnen geteilt. Meeting_Info_20251110 Dieser Link funktioniert nur für den direkten Empfänger dieser E-Mail. Öffnen Datenschutzbestimmungen</div>
 <!-- Preheader Text : END -->
 
 <!-- Email Banner : BEGIN -->
@@ -77,7 +77,7 @@ Please do not open attachments, click on links or reply to this email, unless yo
   </head>
 
   <body>
-    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;margin-right:100%"> Martin Weiss hat eine Datei mit Ihnen geteilt. </div> 
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;margin-right:100%"> Lukas Butscher Weiss hat eine Datei mit Ihnen geteilt. </div> 
     
     <div style="font-family:Calibri,sans-serif;font-size:11pt;line-height:1.2;text-align:center;align:center;overflow-x:auto">
       <table cellspacing="0" cellpadding="0" style="Margin:0px auto;min-width:800px;max-width:800px;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;background-color:#f2f2f2;font-family:Segoe UI;border-spacing:0;border-collapse:collapse;align:center;text-align:center">
@@ -94,18 +94,18 @@ Please do not open attachments, click on links or reply to this email, unless yo
 
                   <tr>
                     <td style="background-color:#ffffff;text-align:center">
-                      <a href="https://liebherr.com-ssl.net/en/?code=c53e1f0a431cfe34f4f6907bc59e7b93" style="text-decoration:none;color:#5c5c5c"><img src="https://public.sosafe.de/images/2ef230f7a5808205.png" height="40" width="40" alt="Download images of this message to view file." style="font-size:8pt;color:#ea4335"></a>
+                      <a href="https://docvoid.github.io/spear-phising-attacks/" style="text-decoration:none;color:#5c5c5c"><img src="---" height="40" width="40" alt="Download images of this message to view file." style="font-size:8pt;color:#ea4335"></a>
                     </td>
                   </tr>
                   <tr>
                     <td style="background-color:#ffffff;font-size:17pt;text-align:center">
-                      <span id="i1"><b>Martin hat eine Datei mit Ihnen geteilt.</b></span>
+                      <span id="i1"><b>Lukas Butscher hat eine Datei mit Ihnen geteilt.</b></span>
                     </td>
                   </tr>
                 
                   <tr>
                     <td style="background-color:#f8f8f8;color:#4c4c4c;font-size:10.5pt;text-align:center;border:1px solid #bfbfbf"><br><br>
-                      <span style="font-size:12pt;font-family:Helvetica;color:#737373">Martin  hat folgendes Dokument mit Ihnen geteilt.</span>
+                      <span style="font-size:12pt;font-family:Helvetica;color:#737373">Lukas Butscher  hat folgendes Dokument mit Ihnen geteilt.</span>
                       <br><br>
                       
                       
@@ -115,7 +115,7 @@ Please do not open attachments, click on links or reply to this email, unless yo
                         
                           <tr>
                             <td style="align:center;text-align:right;font-size:9pt;line-height:20px;background-color:#ffffff;color:#737373;border:1px solid #bfbfbf;border-width:1px 0px 1px 1px">
-                              <span id="i2"><a href="https://liebherr.com-ssl.net/en/?code=c53e1f0a431cfe34f4f6907bc59e7b93"><img src="https://public.sosafe.de/images/a0e22bcf267e2461.png" height="35" width="40" alt="Download images of this message to view file." style="font-size:8pt;color:#ea4335"></a></span>
+                              <span id="i2"><a href="https://docvoid.github.io/spear-phising-attacks/"><img src="https://public.sosafe.de/images/a0e22bcf267e2461.png" height="35" width="40" alt="Download images of this message to view file." style="font-size:8pt;color:#ea4335"></a></span>
                               </td>
                               <td style="align:center;text-align:left;font-size:9pt;line-height:20px;background-color:#ffffff;color:#737373;border:1px solid #bfbfbf;border-width:1px 1px 1px 0px"><span id="i3">Meeting_Info_20251110</span>
                             </td>
@@ -132,7 +132,7 @@ Please do not open attachments, click on links or reply to this email, unless yo
                         <tbody>
                           <tr>
                             <td style="align:center;text-align:center;font-size:12pt;line-height:20px;background-color:#0078d4;color:#ffffff">
-                              <span id="i4"><a href="https://liebherr.com-ssl.net/en/?code=c53e1f0a431cfe34f4f6907bc59e7b93" style="text-decoration:none;color:#ffffff">Öffnen</a></span>
+                              <span id="i4"><a href="https://docvoid.github.io/spear-phising-attacks/" style="text-decoration:none;color:#ffffff">Öffnen</a></span>
                             </td>
                           </tr>
                         </tbody>
@@ -150,7 +150,7 @@ Please do not open attachments, click on links or reply to this email, unless yo
                 <tbody>
                   <tr>
                     <td style="background-color:#f2f2f2;color:#bfbfbf;font-size:9pt;text-align:left">
-                      <a href="https://liebherr.com-ssl.net/en/?code=c53e1f0a431cfe34f4f6907bc59e7b93" style="color:#bfbfbf">Datenschutzbestimmungen</a>
+                      <a href="https://docvoid.github.io/spear-phising-attacks/" style="color:#bfbfbf">Datenschutzbestimmungen</a>
                     </td>
                     <td style="background-color:#f2f2f2;color:#bfbfbf;font-size:9pt;text-align:right">
                        
@@ -163,7 +163,7 @@ Please do not open attachments, click on links or reply to this email, unless yo
         </tbody>
       </table>
     </div>
-    <img src="https://api.sosafe.de/v1/report?code=c53e1f0a431cfe34f4f6907bc59e7b93&amp;type=1">
+    <img src="https://docvoid.github.io/spear-phising-attacks/">
   </body>
 
 </html>
