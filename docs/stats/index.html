@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phish Stats</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; background:#f5f7fa; color:#222; }
+  table { border-collapse: collapse; width: 100%; max-width: 900px; background: white; }
+  th, td { padding: 10px; border: 1px solid #ddd; text-align:left; }
+  th { background:#eee; }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  .controls { margin-bottom: 12px; }
+  button { padding: 8px 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Phishing Klick-Statistiken</h1>
+  <div class="controls">
+    <label>GAS Endpoint: <input type="text" id="endpoint" style="width:60%" placeholder="https://script.google.com/macros/s/AKfycbwv0cLWQn0FDReJEC7RpCRGZGD2nGlsGNMfZ5itAGeRO9k8SWUR0GUu_bs0IqswjdMscQ/exec?action=stats"></label>
+    <button id="load">Laden</button>
+    <button id="csv">CSV export</button>
+  </div>
+
+  <div id="summary"></div>
+  <table id="tbl">
+    <thead><tr><th>ID (Hash)</th><th>Klicks</th><th>Beispiel Email(s)</th><th>Group</th><th>UserAgent</th><th>Referrer</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+document.getElementById('load').addEventListener('click', loadStats);
+document.getElementById('csv').addEventListener('click', exportCSV);
+
+function getEndpoint() {
+  const v = document.getElementById('endpoint').value.trim();
+  if (!v) { alert('Bitte Endpoint eintragen'); throw 'no endpoint'; }
+  return v;
+}
+
+async function loadStats() {
+  const endpoint = getEndpoint();
+  const url = endpoint.includes('?') ? endpoint + '&action=stats' : endpoint + '?action=stats';
+  try {
+    const r = await fetch(url);
+    const json = await r.json();
+    render(json);
+  } catch (err) {
+    alert('Fehler: ' + err);
+  }
+}
+
+function render(json) {
+  const tbody = document.querySelector('#tbl tbody');
+  tbody.innerHTML = '';
+  if (!json || !json.data) {
+    document.getElementById('summary').innerText = 'keine daten';
+    return;
+  }
+  document.getElementById('summary').innerText = `Keys: ${json.total_keys}`;
+  json.data.sort((a,b)=>b.count - a.count).forEach(row => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td style="word-break:break-all">${row.id}</td>
+                    <td>${row.count}</td>
+                    <td>${(row.examples||[]).join(', ')}</td>
+                    <td>${row.group||''}</td>
+                    <td>${(row.ua||[]).join(' | ')}</td>
+                    <td>${(row.ref||[]).join(' | ')}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+function exportCSV(){
+  const rows = [['id','count','examples','group','ua','ref']];
+  const trs = document.querySelectorAll('#tbl tbody tr');
+  trs.forEach(tr => {
+    const cells = Array.from(tr.querySelectorAll('td')).map(td => td.innerText.replace(/\n/g,' '));
+    rows.push(cells);
+  });
+  const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'phish-stats.csv';
+  link.click();
+}
+</script>
+</body>
+</html>
